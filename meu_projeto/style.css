@@ -1,0 +1,87 @@
+body {
+    font-family: Tilt Warp;
+    height: 100vh;
+    background: linear-gradient(#381663, #191325);
+  }
+  
+  .texto {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50.48px;
+    letter-spacing: 0.1em;
+    color: #D9D9D9;
+    text-align: left;
+    margin-bottom: 15px;
+  
+  
+  
+  }
+  
+  .prateleira {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+
+  }
+  .prateleira img{
+    display: flex;
+  }
+  
+  .conteiner {
+    flex-direction: column;
+    display: flex;
+    
+    opacity: 0px;
+    height: 512px;
+  
+  }
+  .imagens{
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    position: relative;
+  }
+  
+  .homem_aranha img {
+    width: 787;
+    height: 512px;
+
+  
+  }
+  
+  .god_of_war img, .copy_cat  img{
+    width: 100%;
+    height: 245px;
+
+  }
+  .section-page{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    
+  }
+  
+  .Seta_direita, .Seta_Esquerda{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;  
+    
+    transform: translateY(-50%);  
+
+
+  }
+  .Seta_direita img, .Seta_Esquerda img{
+    width: 65px;
+    height: 65;
+  }
+  .Seta_Esquerda{
+
+    left: -65px;
+  }
+  
+  .Seta_direita{
+
+    right: -21.82px;
+  }
